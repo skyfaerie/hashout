@@ -25,20 +25,16 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 */
 
-app.get('home', function (req,res) {
+app.get('/home', function (req,res) {
 	res.render('home');
 });
 
-app.get('create', function (req,res) {
+app.get('/create', function (req,res) {
 	res.render('create');
 });
 
-app.get('signup', function (req,res) {
+app.get('/signup', function (req,res) {
 	res.render('signup');
-});
-
-app.get('/signin', function (req,res) {
-	res.render('signin');
 });
 
 app.get('/', function (req,res) {
