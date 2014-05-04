@@ -1,13 +1,29 @@
 extends layout
 
 block content
-  .row
+
+
+
+  //.row
     .small-12.columns
-      h1= title
-      // p Welcome to #{title}
+      form
+        .row
+          .small-12.columns
+            label.text-center Username
+          .small-12.columns
+            input(type='text' name='username')
+        .row
+          .small-12.columns
+            label.text-center Password
+          .small-12.columns
+            input(type='text' name='password')
 
-      p For all your roomie needs
+        .row
+          .small-12.columns.text-center
+            a(href="" class="button tiny radius" type="submit") LOG IN
 
-      .btn-wrap
-        a(href="" class="button") Sign Up
-        a(href="" class="button") Log In
+      .row
+        small-12.columns.text-right
+          .signin
+            a(href="") sign up
+
