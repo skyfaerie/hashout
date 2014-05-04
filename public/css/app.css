@@ -7862,3 +7862,13 @@ form .button, form .button:hover {
   vertical-align: middle;
   font-weight: 700;
 }
+
+/* line 108, ../scss/app.scss */
+.block {
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+/* line 112, ../scss/app.scss */
+.block label {
+  font-weight: 700;
+}
