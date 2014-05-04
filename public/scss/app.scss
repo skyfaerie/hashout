@@ -71,6 +71,7 @@ form {
   border: solid 0px #f7f7f7;
   padding: 10px 15px;
 
+
   label {
     font-size:  18px;
   }
@@ -82,6 +83,10 @@ form {
     font-weight: 700 !important;
   }
 
+}
+
+.form {
+  padding-top: 10px;
 }
 
 .signin{
