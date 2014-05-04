@@ -7840,35 +7840,43 @@ form .button, form .button:hover {
   font-weight: 700 !important;
 }
 
-/* line 88, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .form {
   padding-top: 10px;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .signin {
   margin-top: 20px;
   margin-right: 10px;
 }
-/* line 96, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .signin a, .signin a:hover {
   color: #333;
   text-decoration: underline;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .new {
   font-size: 18px;
   vertical-align: middle;
   font-weight: 700;
 }
 
-/* line 108, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .block {
   padding-bottom: 25px;
   font-size: 14px;
 }
-/* line 112, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .block label {
   font-weight: 700;
+}
+
+/* line 116, ../scss/app.scss */
+.btn-create, .btn-create:hover {
+  background: #83660C !important;
+  border-color: #83660C !important;
+  color: #fff !important;
+  font-weight: 700 !important;
 }

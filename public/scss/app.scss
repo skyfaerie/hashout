@@ -82,7 +82,6 @@ form {
     color: #494848 !important;
     font-weight: 700 !important;
   }
-
 }
 
 .form {
@@ -114,8 +113,10 @@ form {
   }
 }
 
-
-
-
-
+.btn-create, .btn-create:hover {
+    background: #83660C !important;
+    border-color: #83660C !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+  }
 
