@@ -7855,3 +7855,10 @@ form .button, form .button:hover {
   color: #333;
   text-decoration: underline;
 }
+
+/* line 102, ../scss/app.scss */
+.new {
+  font-size: 18px;
+  vertical-align: middle;
+  font-weight: 700;
+}
